@@ -4,7 +4,7 @@
   "description": "SEO_Tools_React",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
@@ -18,21 +18,18 @@
   "author": "amberlinden",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amberllinden/Habits_tracker/issues"
+    "url": "https://github.com/amberllinden/SEO_Tools_React/issues"
   },
-  "homepage": "https://amberllinden.github.io/Habbits_tracker/.",
+  "homepage": "https://amberllinden.github.io/SEO_Tools_React/.",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
-    "bufferutil": "^4.0.1",
-    "canvas": "^2.6.1",
     "css-loader": "^3.4.1",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^25.2.7",
+    "html2canvas": "^1.0.0-rc.5",
     "style-loader": "^1.1.2",
-    "utf-8-validate": "^5.0.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
