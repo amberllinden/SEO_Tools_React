@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { useRoutes, A } from 'hookrouter';
-import routes from './app/routes/routes';
+import routes from "./routes/routes";
 
 export function App() {
   const routeResult = useRoutes(routes);
