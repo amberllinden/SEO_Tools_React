@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { TextComponent } from '../components/text';
+import TextComponent from '../components/text';
 
 test('TextComponent h1 - Head with css-class "head-h1"', () => {
     const tree = renderer
