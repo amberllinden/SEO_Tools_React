@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { TextComponent } from '../components/text';
+import TextComponent from '../components/text';
 
 export class Main extends Component {
   render() {
