@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import TextComponent from '../components/text';
+import Button from '../components/button';
 
 export class Main extends Component {
   render() {
@@ -12,6 +13,10 @@ export class Main extends Component {
         <TextComponent
           tag="p"
           content="Тут будет текст"
+        />
+        <Button
+          content="Тут будет кнопка"
+          onClickFuntion={() => console.log('Cick!')}
         />
       </>
     );
