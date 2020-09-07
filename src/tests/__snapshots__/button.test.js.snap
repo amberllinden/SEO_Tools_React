@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component - some content with css-class "button-css" 1`] = `
+<button
+  className="button-css"
+  onClick={[Function]}
+>
+  some content
+</button>
+`;

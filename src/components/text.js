@@ -7,12 +7,12 @@ const TextComponent = (props) => {
     return (
         <TagName className={styleClass}>{content}</TagName>
     );
-}
+};
 
 TextComponent.propTypes = {
     tag: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
     styleClass: PropTypes.string,
-}
+};
 
 export default TextComponent;
