@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component - with wrapper 1`] = `
+<div>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="value"
+  />
+</div>
+`;
+
+exports[`Input Component – without wrapper, with placeholder 1`] = `
+<input
+  onChange={[Function]}
+  placeholder="Placeholder Text"
+  value="1234wdwd"
+/>
+`;
