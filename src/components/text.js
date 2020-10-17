@@ -11,7 +11,7 @@ const TextComponent = (props) => {
 
 TextComponent.propTypes = {
     tag: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
+    content: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
     styleClass: PropTypes.string,
 };
 

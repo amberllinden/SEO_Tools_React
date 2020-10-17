@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './styles/app.css';
 import { useRoutes, A } from 'hookrouter';
 import routes from "./routes/routes";
 
@@ -7,15 +8,19 @@ export function App() {
   const routeResult = useRoutes(routes);
 
   return (
-    <>
-      <A className="" href="/">Главная</A>
-      <A className="" href="/arrays_comparison">Первый</A>
-      <A className="" href="/counting_characters">Второй</A>
-      <A className="" href="/query_processing">Третий</A>
-      <A className="" href="/ur_counter">Четвертый</A>
-      <A className="" href="/word_processor">Пятый</A>
-      {routeResult}
-    </>
+    <div className="wrapper">
+      <div className="nav-menu">
+          <A className="nav-menu_link" href="/"><span>Главная</span></A>
+          <A className="nav-menu_link" href="/arrays_comparison"><span>Удаление дубликатов</span></A>
+          <A className="nav-menu_link" href="/counting_characters"><span>Второй</span></A>
+          <A className="nav-menu_link" href="/query_processing"><span>Третий</span></A>
+          <A className="nav-menu_link" href="/ur_counter"><span>Четвертый</span></A>
+          <A className="nav-menu_link" href="/word_processor"><span>Пятый</span></A>
+      </div>
+      <div className="application">
+        {routeResult}
+      </div>
+    </div>
   );
 }
 
