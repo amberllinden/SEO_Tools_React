@@ -1,0 +1,85 @@
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    position: fixed;
+}
+
+.nav-menu a {
+    margin: 3.5px;
+    padding: 3.5px;
+    text-decoration: none;
+    background-color: lightpink;
+    color: maroon;
+}
+
+.nav-menu a span {
+    padding: 0 10px;
+}
+
+.nav-menu a:hover {
+    background-color: maroon;
+    color: lightpink;
+}
+
+.application {
+    margin-left: 200px;
+}
+
+.application-array_comparison-title {
+    color: firebrick;
+}
+
+.application-array_comparison-text {
+    color: firebrick;
+}
+
+.application-array_comparison-inputs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.application-array_comparison-inputs textarea {
+    outline: none;
+	margin: 5px;
+	border: 1px solid lightpink;
+    border-radius: 2px;
+    color: maroon;
+}
+
+.application-array_comparison-inputs textarea:focus {
+    outline: none;
+    border: 1px solid maroon;
+}
+
+.application-array_comparison-inputs textarea:hover {
+    outline: none;
+    border: 1px solid salmon;
+}
+
+.application-array_comparison-button {
+    display: block;
+    margin: 0 auto;
+	padding: 5px;
+	border: 1px solid lightpink;
+	background-color: lightpink;
+	border-radius: 2px;
+	color: maroon;
+}
+
+.application-array_comparison-button:hover {
+    border: 1px solid maroon;
+    background-color: maroon;
+    color: lightpink;
+}
+
+.application-array_comparison-result {
+    color: maroon;
+}
