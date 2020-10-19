@@ -83,3 +83,49 @@
 .application-array_comparison-result {
     color: maroon;
 }
+
+.application-word_processor-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+}
+
+.application-word_processor input {
+    margin: 10px 20px;
+    outline: none;
+    border: 1px solid lightpink;
+    border-radius: 2px;
+    color: maroon;
+}
+
+.application-word_processor input:hover {
+    outline: none;
+    border: 1px solid salmon;
+}
+
+.application-word_processor input:focus {
+    outline: none;
+    border: 1px solid maroon;
+}
+
+.application-word_processor button {
+    margin: 10px 20px;
+    border: 1px solid lightpink;
+    background-color: lightpink;
+    color: maroon;
+}
+
+.application-word_processor button:hover {
+    border: 1px solid maroon;
+    background-color: maroon;
+    color: lightpink;
+}
+
+.application-word_processor-text {
+    margin: 10px 0px;
+    color: firebrick;
+}
+
+.application-word_processor-title {
+    color: firebrick;
+}
