@@ -129,3 +129,65 @@
 .application-word_processor-title {
     color: firebrick;
 }
+
+.application-counting_characters {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-counting_characters-title {
+    color: firebrick;
+}
+
+.application-counting_characters-text {
+    color: firebrick;
+}
+
+.application-counting_characters-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.application-counting_characters textarea {
+    outline: none;
+	border: 1px solid lightpink;
+    border-radius: 2px;
+    color: maroon;
+}
+
+.application-counting_characters textarea:focus {
+    outline: none;
+    border: 1px solid maroon;
+}
+
+.application-counting_characters textarea:hover {
+    outline: none;
+    border: 1px solid salmon;
+}
+
+.application-counting_characters button {
+    margin: 10px;
+    height: 30px;
+    border: 1px solid lightpink;
+    background-color: lightpink;
+    color: maroon;
+}
+
+.application-counting_characters button:hover {
+    border: 1px solid maroon;
+    background-color: maroon;
+    color: lightpink;
+}
+
+.application-counting_characters-container_text {
+    display: flex;
+    justify-content: center;
+}
+
+.application-counting_characters-text_bordered {
+    color: firebrick;
+    border: 1px solid lightpink;
+    margin: 10px auto;
+    padding: 10px;
+}
