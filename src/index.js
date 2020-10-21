@@ -14,8 +14,8 @@ export function App() {
           <A className="nav-menu_link" href="/arrays_comparison"><span>Удаление дубликатов</span></A>
           <A className="nav-menu_link" href="/word_processor"><span>Оператор "!"</span></A>
           <A className="nav-menu_link" href="/counting_characters"><span>Подсчет символов</span></A>
-          <A className="nav-menu_link" href="/query_processing"><span>Третий</span></A>
-          <A className="nav-menu_link" href="/ur_counter"><span>Четвертый</span></A>
+          <A className="nav-menu_link" href="/query_processing"><span>Дополнение ключей</span></A>
+          <A className="nav-menu_link" href="/ur_counter"><span>Встречаемость домена</span></A>
       </div>
       <div className="application">
         {routeResult}
