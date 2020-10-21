@@ -236,3 +236,75 @@
     background-color: maroon;
     color: lightpink;
 }
+
+.application-url_counter {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-url_counter h2 {
+    color: firebrick;
+}
+
+.application-url_counter div {
+    margin: 10px 0;
+    color: firebrick;
+}
+
+.application-url_counter textarea {
+    outline: none;
+    border: 1px solid lightpink;
+    border-radius: 2px;
+    color: maroon;
+    margin: 10px;
+}
+
+.application-url_counter textarea:focus {
+    outline: none;
+    border: 1px solid maroon;
+}
+
+.application-url_counter textarea:hover {
+    outline: none;
+    border: 1px solid salmon;
+}
+
+.application-url_counter button {
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    border: 1px solid lightpink;
+    background-color: lightpink;
+    color: maroon;
+}
+
+.application-url_counter button:hover {
+    border: 1px solid maroon;
+    background-color: maroon;
+    color: lightpink;
+}
+
+.application-main {
+    display: flex;
+    flex-direction: column;
+    color: firebrick;
+}
+
+.application-main ul {
+    display: block;
+}
+
+.application-main a {
+    margin: 3.5px;
+    padding: 3.5px;
+    text-decoration: none;
+    color: firebrick;
+}
+
+.application-main a span {
+    padding: 0 10px;
+}
+
+.application-main a:hover {
+    color: maroon;
+}
