@@ -13,6 +13,6 @@ const Routes = {
   '/word_processor': () => <WordProcessor />,
   '/counting_characters': () => <CountingCharacters />,
   '/query_processing': () => <QueryProcessing/>,
-  '/ur_counter': () => <UrlCounter/>,
+  '/url_counter': () => <UrlCounter/>,
 };
 export default Routes;
