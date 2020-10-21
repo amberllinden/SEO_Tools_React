@@ -7,7 +7,6 @@
 .nav-menu {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
     position: fixed;
 }
 
@@ -190,4 +189,50 @@
     border: 1px solid lightpink;
     margin: 10px auto;
     padding: 10px;
+}
+
+.application-query_processing h2 {
+    color: firebrick;
+}
+
+.application-query_processing div {
+    margin: 10px auto;
+    color: firebrick;
+}
+
+.application-query_processing-textarea_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.application-query_processing-textarea_container textarea {
+    outline: none;
+    border: 1px solid lightpink;
+    border-radius: 2px;
+    color: maroon;
+}
+
+.application-query_processing-textarea_container textarea:focus {
+    outline: none;
+    border: 1px solid maroon;
+}
+
+.application-query_processing-textarea_container textarea:hover {
+    outline: none;
+    border: 1px solid salmon;
+}
+
+.application-query_processing button {
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    border: 1px solid lightpink;
+    background-color: lightpink;
+    color: maroon;
+}
+
+.application-query_processing button:hover {
+    border: 1px solid maroon;
+    background-color: maroon;
+    color: lightpink;
 }
